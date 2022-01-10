@@ -1,0 +1,193 @@
+:root {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 900px) {
+
+    :root {
+        font-size: 1.2vw;
+    }
+
+}
+
+body {  
+    font-family: 'Raleway', sans-serif;
+    background-size: 100%;
+    background-color: rgb(255, 255, 255);
+    background-position: top;
+    margin-right: -10px;
+    
+}
+
+@media screen and (max-width: 900px) {
+
+  body {
+    margin-right: 50px;
+  }
+
+}
+
+p {
+  width: 96%;
+  max-width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 140%;
+  padding-left: 10%;
+
+}
+
+.content {
+    width: 96%;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+    padding-left: 10%;
+}
+
+
+
+h1 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-left: 30%;
+    width: 50%;
+    line-height: 140%;
+    width: 96%;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+    padding-left: 10%;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 140%;
+    width: 96%;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+    padding-left: 10%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #CAAA55; 
+  line-height: 140%;
+  width: 96%;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+    padding-left: 10%;
+}
+
+.content2 {
+  font-family: 'Raleway', sans-serif;
+    background-size: 100%;
+    background-color: rgb(255, 255, 255);
+    background-position: top;
+    margin-right: -10px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+  .content2 {
+    margin-right: -50px;
+  }
+
+}
+
+.raum {
+  padding-top: 5%;
+  }
+
+  .raum2 {
+    padding-top: 5%;
+  }
+
+
+  article.myclass .saetze{
+    display:flex;
+    flex-direction: column;
+ }
+ 
+ .saetze span{
+     font-family: 'Raleway', sans-serif;
+     border:#CAAA55;
+     border-style: solid;
+     color: #CAAA55;
+     font-size: 2rem;
+     padding: 10px;
+     padding-left: 28%;
+     letter-spacing: 1px;
+     line-height:150%;
+     margin-left: -10px;  
+ } 
+
+ .boxen {
+  font-family: 'Raleway', sans-serif;
+  border:#CAAA55;
+  border-style: solid;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 10px;
+  letter-spacing: 1px;
+  line-height:150%;
+  background-color: #CAAA55;
+  margin-right: 18%;
+  display:flex;
+  flex-direction: column;
+  padding-left: 28%;
+
+
+} 
+
+ table {
+    border-collapse:collapse;
+    border-spacing: 0;
+    line-height: 140%;
+    width: 100%;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 140%;
+  }
+
+  td, th {
+    border: 1px solid #CAAA55;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f3ecd7;
+
+  }
+
+  .impressum {
+    font-family: 'Raleway', sans-serif;
+    color:#CAAA55;
+    font-size: 1rem;
+    line-height: 140%;
+    text-align:right;
+    background-color: #f0ecec;
+    margin: -10px;
+    padding: 80px;
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .impressum {
+    margin-right: -50px;
+  }
+
+}
